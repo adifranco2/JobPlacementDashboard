@@ -57,4 +57,5 @@ private void SeedDonations()
   
   donations.ForEach(donattion => context.donations.AddPrUpdate(d => new { d.Amount, d.DonationTime }, donation));
   context.SaveChanges();
+}
   ```
